@@ -1,0 +1,29 @@
+01:49:30.588 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga gdgg creada
+01:57:27.545 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga vxvx creada
+02:02:44.806 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga as creada
+02:03:53.607 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga kk creada
+02:10:39.034 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga ff creada
+02:13:59.530 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga uiu creada
+02:14:26.785 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga yjyj creada
+02:14:29.804 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga jkjkjk creada
+02:14:32.241 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga wewew creada
+02:16:23.475 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga dwdwd creada
+02:21:57.600 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga fngn creada
+02:23:21.384 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.291.tar.xz creada
+02:23:33.916 [Thread-3] TRACE com.josefco.megaDownload.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.291.tar.xz iniciada
+02:23:38.265 [Thread-3] TRACE com.josefco.megaDownload.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.291.tar.xz finalizada
+02:27:12.638 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga wqd creada
+02:27:14.006 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga qdwqd creada
+02:27:20.815 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga qwdq creada
+02:28:50.994 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/10Gb.dat creada
+02:28:54.729 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/10Gb.dat creada
+02:29:03.003 [Thread-3] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/10Gb.dat iniciada
+02:29:08.289 [Thread-4] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/10Gb.dat iniciada
+02:29:11.535 [Thread-4] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/10Gb.dat cancelada
+02:29:15.977 [Thread-3] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/10Gb.dat cancelada
+04:52:27.946 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat creada
+04:52:33.999 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat creada
+04:52:43.162 [Thread-3] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat iniciada
+04:52:47.140 [Thread-4] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat iniciada
+04:52:50.302 [Thread-3] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat cancelada
+04:52:58.935 [Thread-4] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat cancelada

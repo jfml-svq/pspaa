@@ -1,0 +1,5 @@
+com\josefco\megaDownload\App.class
+com\josefco\megaDownload\util\R.class
+com\josefco\megaDownload\DownloadController.class
+com\josefco\megaDownload\AppController.class
+com\josefco\megaDownload\DownloadTask.class

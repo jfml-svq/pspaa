@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <VBox fx:id="panel" alignment="TOP_CENTER" prefHeight="360.0" prefWidth="598.0">
+         <children>
+            <TextField fx:id="tfUrl">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></TextField>
+            <HBox alignment="TOP_CENTER" prefHeight="33.0" prefWidth="578.0">
+               <children>
+                  <Button fx:id="btDownload" mnemonicParsing="false" onAction="#launchDownload" prefHeight="25.0" prefWidth="175.0" text="Añadir">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btStopAllDownloads" mnemonicParsing="false" onAction="#stopAllDownloads" prefHeight="24.0" prefWidth="238.0" text="Cancelar todas las descargas" />
+                  <Button fx:id="btnCloseAllTabs" mnemonicParsing="false" onAction="#closeAllTabs" prefHeight="24.0" prefWidth="238.0" text="Cerrar todas las pestañas">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <TabPane fx:id="tpDownloads" prefHeight="233.0" prefWidth="578.0" tabClosingPolicy="SELECTED_TAB" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </content>
+</ScrollPane>
