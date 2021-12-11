@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<ScrollPane fx:id="initScrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <content>
       <VBox fx:id="panel" alignment="TOP_CENTER" prefHeight="360.0" prefWidth="598.0">
          <children>
@@ -18,15 +18,20 @@
                </VBox.margin></TextField>
             <HBox alignment="TOP_CENTER" prefHeight="33.0" prefWidth="578.0">
                <children>
-                  <Button fx:id="btDownload" mnemonicParsing="false" onAction="#launchDownload" prefHeight="25.0" prefWidth="175.0" text="Añadir">
+                  <Button fx:id="btDownload" mnemonicParsing="false" onAction="#launchDownload" prefHeight="25.0" prefWidth="75.0" text="Añadir">
                      <HBox.margin>
-                        <Insets right="10.0" />
+                        <Insets right="5.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="btStopAllDownloads" mnemonicParsing="false" onAction="#stopAllDownloads" prefHeight="24.0" prefWidth="238.0" text="Cancelar todas las descargas" />
-                  <Button fx:id="btnCloseAllTabs" mnemonicParsing="false" onAction="#closeAllTabs" prefHeight="24.0" prefWidth="238.0" text="Cerrar todas las pestañas">
+                  <Button fx:id="btStopAllDownloads" mnemonicParsing="false" onAction="#stopAllDownloads" prefHeight="24.0" prefWidth="180.0" text="Cancelar todas las descargas" />
+                  <Button fx:id="btnCloseAllTabs" mnemonicParsing="false" onAction="#closeAllTabs" prefHeight="24.0" prefWidth="180.0" text="Cerrar todas las pestañas">
                      <HBox.margin>
-                        <Insets left="10.0" />
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btnExitDirectory" mnemonicParsing="false" onAction="#newExitDirectory" prefWidth="100.0" text="Carpeta Salida">
+                     <HBox.margin>
+                        <Insets left="5.0" />
                      </HBox.margin>
                   </Button>
                </children>

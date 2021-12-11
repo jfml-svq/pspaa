@@ -24,13 +24,17 @@ public class DownloadController implements Initializable {
     private String urlText;
     private DownloadTask downloadTask;
     private Stage stage;
+    private File ficheroSalida;
+    private File ficheroFinal;
 
     private static final Logger logger = LogManager.getLogger(DownloadController.class);
 
-    public DownloadController(String urlText) {
+    public DownloadController(String urlText, File ficheroSalida) {
         //R.escribirLog("Descarga " + urlText + " creada");
         logger.info("Descarga " + urlText + " creada");
         this.urlText = urlText;
+        this.ficheroSalida = ficheroSalida;
+
     }
 
     @Override
@@ -42,11 +46,12 @@ public class DownloadController implements Initializable {
     public void start(ActionEvent event) {
         try {
             FileChooser fileChooser = new FileChooser();
-            File file = fileChooser.showSaveDialog(tfUrl.getScene().getWindow());
-            if (file == null)
+            fileChooser.setInitialDirectory(ficheroSalida);
+            ficheroFinal= fileChooser.showSaveDialog(tfUrl.getScene().getWindow());
+            if (ficheroFinal == null)
                 return;
 
-            downloadTask = new DownloadTask(urlText, file);
+            downloadTask = new DownloadTask(urlText, ficheroFinal);
 
             pbProgress.progressProperty().unbind();
             pbProgress.progressProperty().bind(downloadTask.progressProperty());

@@ -27,3 +27,5 @@
 04:52:47.140 [Thread-4] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat iniciada
 04:52:50.302 [Thread-3] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat cancelada
 04:52:58.935 [Thread-4] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat cancelada
+06:51:10.706 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga sdsds creada
+06:53:28.944 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga ghgjh creada
