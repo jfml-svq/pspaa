@@ -7,10 +7,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 import javafx.stage.DirectoryChooser;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -88,11 +88,19 @@ public class AppController {
 
 
     @FXML
-    public void readDLC() {
-        // Pedir el fichero al usuario (FileChooser)
+    public void addList() {
+        FileChooser newFileChoosed = new FileChooser();
+        File newFichero = newFileChoosed.showOpenDialog(null);
+        if (newFichero == null)
+            return;
 
-        // Leo el fichero y cargo cada linea en un List (clase Files)
+        try (BufferedReader reader = new BufferedReader(new FileReader(newFichero))) {
+            String line;
+            while ((line = reader.readLine()) != null)
+                launchDownload(line, fichero);
 
-        // Para cada linea, llamar al método launchDownload
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

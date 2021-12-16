@@ -23,13 +23,18 @@
                         <Insets right="5.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="btStopAllDownloads" mnemonicParsing="false" onAction="#stopAllDownloads" prefHeight="24.0" prefWidth="180.0" text="Cancelar todas las descargas" />
-                  <Button fx:id="btnCloseAllTabs" mnemonicParsing="false" onAction="#closeAllTabs" prefHeight="24.0" prefWidth="180.0" text="Cerrar todas las pestañas">
+                  <Button fx:id="btStopAllDownloads" mnemonicParsing="false" onAction="#stopAllDownloads" prefHeight="24.0" prefWidth="120.0" text="Cancelar descargas" />
+                  <Button fx:id="btnCloseAllTabs" mnemonicParsing="false" onAction="#closeAllTabs" prefHeight="24.0" prefWidth="120.0" text="Cerrar pestañas">
                      <HBox.margin>
                         <Insets left="5.0" />
                      </HBox.margin>
                   </Button>
                   <Button fx:id="btnExitDirectory" mnemonicParsing="false" onAction="#newExitDirectory" prefWidth="100.0" text="Carpeta Salida">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#addList" prefWidth="120.0" text="Añadir Lista">
                      <HBox.margin>
                         <Insets left="5.0" />
                      </HBox.margin>

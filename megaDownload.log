@@ -29,3 +29,7 @@
 04:52:58.935 [Thread-4] TRACE com.josefco.megaDownload.DownloadController - Descarga http://ovh.net/files/1Gb.dat cancelada
 06:51:10.706 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga sdsds creada
 06:53:28.944 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga ghgjh creada
+18:13:08.144 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.258.tar.xz creada
+18:13:08.178 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.258.tar.xz creada
+18:13:08.189 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.258.tar.xz creada
+18:13:08.198 [JavaFX Application Thread] INFO  com.josefco.megaDownload.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.258.tar.xz creada
